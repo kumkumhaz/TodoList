@@ -1,0 +1,45 @@
+App Steps:
+
+1 - Create form.
+2 - Read text box data on click of Add button
+3 - Display todo text button(edit, delete) to todo list.
+    3.1 Create todo list.
+    3.2 Create List items. 
+    3.3 add text to todo list item.
+    3.4 Add edit button to todo list item.
+    3.5 Add delete button to list.
+
+4 - On click of edit.
+    4.1 Convert text into a textbox
+    4.2 On click of edit again, update the text in list.
+5 - On click of delete, remove todo item from the list.
+
+
+How to handle form submit event? 
+    => Using JavaScript 
+How to access element from DOM?
+    - document.getElementById("idname")
+How to read value of an element?
+    -ariaValueMax;
+How to add new elements to DOM / how to update values of element in ?
+how to capture events?
+how to get element where event was raised?
+how to style elements in DOM ?
+
+ What is DOM? => Document Object Model
+ => DOM is the structure how browser keep your HTML page.
+  - it is important for browsers to preserve the relationship between the elements and tree is the correct Data structure to to that
+ tree data structure to structure html page.
+                        HTML
+                       /    \
+                   head      Body
+                  /    \         \
+              Link    Script      div
+                                  /  \
+                              form    from
+                              /
+                            input
+
+Why do we need DOM?
+ basically we need DOM to preserve/ to maintain the relationship between the elements.
+ Here we can't use array because it doesn't defined those relationship between the elements.
